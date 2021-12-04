@@ -14,7 +14,6 @@ class Form extends Component {
 
   constructor(props) {
     super();
-    console.log(props);
   }
 
   handleChange = e => {
@@ -57,8 +56,7 @@ class Form extends Component {
 };
 
 Form.propTypes = {
-  state: PropTypes.object.isRequired,
-  handler: PropTypes.func.isRequired,
+  submit: PropTypes.func.isRequired,
 };
 
 export default Form;

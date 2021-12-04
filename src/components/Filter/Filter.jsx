@@ -7,4 +7,8 @@ const Filter = (props) => {
   );
 };
 
+Filter.propTypes = {
+  handler: PropTypes.func.isRequired
+}
+
 export default Filter;

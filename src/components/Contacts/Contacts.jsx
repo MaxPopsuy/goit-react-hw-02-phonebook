@@ -22,4 +22,9 @@ const Contacts = (props) => {
   );
 };
 
+Contacts.propTypes = {
+  deleteContact: PropTypes.func.isRequired,
+  contacts: PropTypes.array.isRequired
+}
+
 export default Contacts;

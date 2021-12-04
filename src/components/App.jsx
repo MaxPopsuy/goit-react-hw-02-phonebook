@@ -44,7 +44,7 @@ class App extends Component {
     return (
       <>
         <Section title="Phonebook">
-          <Form state = {this.state} submit={this.submit} />
+          <Form submit={this.submit} />
         </Section>
         <section>
           <h2>Contacts</h2>
