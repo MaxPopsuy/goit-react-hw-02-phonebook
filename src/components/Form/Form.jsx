@@ -23,7 +23,6 @@ class Form extends Component {
   reset = () => this.setState({ ...INITIAL_STATE });
 
   render() {
-    console.log(this.props.submit);
     return (
       <form onSubmit={(e) => this.props.submit(e, this.state.name, this.state.number, this.reset)}>
         <p>Name: {this.state.name}</p>

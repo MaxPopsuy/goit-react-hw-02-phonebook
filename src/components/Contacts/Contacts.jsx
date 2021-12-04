@@ -3,12 +3,10 @@ import PropTypes from 'prop-types';
 
 
 const Contacts = (props) => {
-  console.log(props.deleteContact);
   return (
     <ul>
       { 
         props.contacts.map((item) => {
-          console.log(item);
           return (
             <li key={item.id}>
               {item.name}: {item.number}
